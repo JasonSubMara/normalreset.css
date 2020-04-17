@@ -1,7 +1,7 @@
 {
   "name": "normalreset.css",
   "version": "1.0.0",
-  "description": "A modern alternative to CSS resets based on Nicolas Gallagher and Jonathan Neal's normalize.css and DavidWells's reset.css",
+  "description": "A modern alternative to CSS resets based on Nicolas Gallagher and Jonathan Neal's normalize.css and Eric's reset.css",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
