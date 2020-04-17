@@ -1,0 +1,24 @@
+{
+  "name": "normalreset.css",
+  "version": "1.0.0",
+  "description": "A modern alternative to CSS resets based on Nicolas Gallagher and Jonathan Neal's normalize.css and DavidWells's reset.css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonSubMara/normalreset.css.git"
+  },
+  "keywords": [
+    "normalize",
+    "css",
+    "reset"
+  ],
+  "author": "JasonSubMara <jie.yr127@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JasonSubMara/normalreset.css/issues"
+  },
+  "homepage": "https://github.com/JasonSubMara/normalreset.css#readme"
+}
