@@ -37,3 +37,12 @@ body {
   /* Change the font size in all browsers. */
   font-size: 14px;
 }
+
+hr {
+  /* Add the correct box sizing in Firefox. */
+  box-sizing: content-box;
+  height: 0;
+  /* Show the overflow in Edge and IE. */
+  overflow: visible;
+}
+
