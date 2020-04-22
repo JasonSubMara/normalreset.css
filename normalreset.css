@@ -2,6 +2,38 @@
 /* Based on Nicolas Gallagher and Jonathan Neal's normalize.css and Eric's reset.css */
 /* ================================================================================= */
 
+@charset "utf-8";
 
- 
+*,
+*::before,
+*::after {
+  /* Add border box sizing in all browsers. */
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
+html {
+  /* Prevent adjustments of font size after orientation changes in iOS. */
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  /* Correct the line height in all browsers. */
+  line-height: 1.15;
+}
+
+body {
+  /* Remove the margin & padding in all browsers. */
+  margin: 0;
+  padding: 0;
+  /* Make font smooth in MacOS  */
+  -webkit-font-smoothing:antialiased;
+  /* Terminal rendering rules for font cluster */
+  font-family:
+    /* personal for Chinese project */Source Han Sans SC,
+    /* system default */system-ui,
+    /* macOS 10.11-10.12 */-apple-system,BlinkMacSystemFont,,PingFang SC,
+    /* Windows 6+ */ Segoe UI,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,
+    /* fall back */Helvetica Neue,sans-serif;
+  /* Change the font size in all browsers. */
+  font-size: 14px;
+}
