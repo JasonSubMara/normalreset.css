@@ -65,3 +65,38 @@ dd {
   /* Remove the list style in all browsers. */
   list-style: none;
 }
+
+img {
+  /* Remove the border on images within links in IE 10+. */
+  border-style:none;
+}
+
+audio,
+canvas,
+img,
+svg,
+video,
+iframe {
+  /* Change the alignment on media elements in all browsers. */
+  vertical-align:middle;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  /* Render the element consistently in IE. */
+  display: block;
+}
+
+address {
+  /* Reset contact area style. */
+  font-style: normal;
+  line-height: inherit;
+}
