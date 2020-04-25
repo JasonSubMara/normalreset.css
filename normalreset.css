@@ -46,3 +46,22 @@ hr {
   overflow: visible;
 }
 
+pre,
+code,
+kbd,
+samp {
+  /* Terminal rendering rules for special element in all broswers. */
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+  /* Correct the odd `em` font sizing in all browsers. */
+  font-size: 1em;
+}
+
+ol,
+ul,
+li,
+dl,
+dt,
+dd {
+  /* Remove the list style in all browsers. */
+  list-style: none;
+}
