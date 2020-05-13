@@ -64,6 +64,7 @@ dt,
 dd {
   /* Remove the list style in all browsers. */
   list-style: none;
+  outline: none;
 }
 
 img {
@@ -99,4 +100,25 @@ address {
   /* Reset contact area style. */
   font-style: normal;
   line-height: inherit;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  /* Change the font styles in all browsers. */
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  /* Remove the margin in Firefox and Safari. */
+  margin: 0;
+}
+
+a {
+  /* Remove the gray background on active links in IE 10. */
+  background-color: transparent;
+
+  /* Remove the underline in all browsers. */
+  text-decoration:none;
 }
