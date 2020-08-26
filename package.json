@@ -1,6 +1,6 @@
 {
   "name": "normalreset.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modern alternative to CSS resets based on Nicolas Gallagher and Jonathan Neal's normalize.css and Eric's reset.css",
   "main": "index.js",
   "scripts": {
