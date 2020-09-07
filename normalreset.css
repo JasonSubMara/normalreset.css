@@ -31,7 +31,7 @@ body {
   font-family:
     /* personal for Chinese project */Source Han Sans SC,
     /* system default */system-ui,
-    /* macOS 10.11-10.12 */-apple-system,BlinkMacSystemFont,,PingFang SC,
+    /* macOS 10.11-10.12 */-apple-system,BlinkMacSystemFont,PingFang SC,
     /* Windows 6+ */ Segoe UI,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,
     /* fall back */Helvetica Neue,sans-serif;
   /* Change the font size in all browsers. */
