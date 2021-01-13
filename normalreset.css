@@ -1,4 +1,4 @@
-/*! normalreset.css v1.0.0 | MIT license | github.com/JasonSubMara/normalreset.css */
+/*! normalreset.css v1.1.0 | MIT license | github.com/JasonSubMara/normalreset.css */
 /* Based on Nicolas Gallagher and Jonathan Neal's normalize.css and Eric's reset.css */
 /* ================================================================================= */
 
@@ -65,6 +65,9 @@ dd {
   /* Remove the list style in all browsers. */
   list-style: none;
   outline: none;
+  /* Remove the margin & padding in all browsers. */
+  margin: 0;
+  padding: 0;
 }
 
 img {
@@ -113,6 +116,8 @@ textarea {
   line-height: 1.15;
   /* Remove the margin in Firefox and Safari. */
   margin: 0;
+  /* Remove the outline in all browsers. */
+  outline: none;
 }
 
 a {
@@ -121,4 +126,17 @@ a {
 
   /* Remove the underline in all browsers. */
   text-decoration:none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* Change font style */
+  font-weight: normal;
+  /* Remove the margin & padding in all browsers. */
+  margin: 0;
+  padding: 0;
 }
